@@ -27,7 +27,7 @@ if __name__ == "__main__":
     
     busca_iterativa= 25
     for i in lista:
-        arvore.insert(i)
+        lista.insert(i)
     print("Árvore Imprimida: \n")
     arvore.print_tree(arvore.root)
     # Verificando se os elementos fazem parte da arvore
